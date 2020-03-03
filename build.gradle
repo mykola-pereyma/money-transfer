@@ -32,6 +32,9 @@ repositories {
 
 test {
     useJUnitPlatform()
+    testLogging {
+        events = ["passed", "failed", "skipped"]
+    }
 }
 
 dependencies {

@@ -12,6 +12,10 @@
  
 This project creates a new in-memory sqlite database with two tables `AccountTransactions` and `TransferRequests`. 
 
+### Build and run
+Gradle used as a build tool. Please navigate to money-transfer folder after the checkout from repository. To build and run project execute:
+`gradle run` 
+
 ### Routes:
 
 `GET /transfer-requests` --> get all transfer requests in the database
@@ -48,3 +52,4 @@ The sample MoneyTransfer service and corresponding endpoints covered with:
 
 - Unit testing of services with AssertJ - DAO and business logic
 - Integration testing of endpoints using running server with Rest Assured - routing tests/status codes/response structure
+- Concurrent testing of the money transferring with limited funds on account

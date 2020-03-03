@@ -36,3 +36,4 @@ build/
 /gradlew.bat
 /gradlew
 /memory:myDb
+/gradle/
